@@ -16,8 +16,6 @@
 		right: 0;
 	}
 
-	/* ---------------------SECCION HERO--------------------- */
-
 	/* ---------------------SECCION NOSOTROS--------------------- */
 
 	/* ---------------------SECCION SERVICIOS--------------------- */
@@ -54,7 +52,18 @@
 
 	/* ---------------------SECCION HERO--------------------- */
 
-	/* ---------------------SECCION NOSOTROS--------------------- */
+	.hero {
+		position: relative;
+		height: 150vh;
+	}
+
+	.hero h2 {
+		font-size: 3.5em;
+	}
+
+	.hero a {
+		font-size: 1.2em;
+	}
 
 	/* ---------------------SECCION SERVICIOS--------------------- */
 
@@ -113,7 +122,56 @@
 
 	/* ---------------------SECCION HERO--------------------- */
 
+	.hero {
+		position: relative;
+		height: 130vh;
+	}
+
+	.hero h2 {
+		font-size: 3em;
+	}
+
+	.hero a {
+		font-size: 1.2em;
+	}
+
+
 	/* ---------------------SECCION NOSOTROS--------------------- */
+	.intro-about-section {
+		margin: 3em auto 0 auto;
+	}
+
+	.nosotros {
+		padding-right: 2em;
+	}
+
+	.vision {
+		padding-top: .3em;
+		padding-left: 2em;
+	}
+
+	.mision {
+		padding-top: 1.2em;
+	}
+
+	.intro-about-section h1 {
+		font-size: 4vw;
+	}
+
+	.intro-about-section h3 {
+		font-size: 3vw;
+	}
+
+	.intro-about-section h4 {
+		font-size: 2.5vw;
+	}
+
+	.intro-about-section p {
+		margin-top: 15px;
+		margin-bottom: 0;
+		color: #222;
+	}
+
 
 	/* ---------------------SECCION SERVICIOS--------------------- */
 
@@ -186,7 +244,58 @@
 
 	/* ---------------------SECCION HERO--------------------- */
 
+
+	.hero {
+		position: relative;
+		height: 80vh;
+	}
+
+	.hero h2 {
+		font-size: 2em;
+	}
+
+	.hero a {
+		font-size: 1.1em;
+	}
+
+	.btn {
+		padding: 8px 15px;
+	}
+
+
 	/* ---------------------SECCION NOSOTROS--------------------- */
+
+	.intro-about-section {
+		margin: 2em auto 0 auto;
+	}
+
+	.nosotros {
+		padding: 0 2em;
+	}
+
+	.vision {
+		padding: 1em 2em 0;
+	}
+
+	.mision {
+		padding-top: 1em;
+	}
+
+	.intro-about-section h1 {
+		font-size: 5vw;
+	}
+
+	.intro-about-section h3 {
+		font-size: 3.5vw;
+	}
+
+	.intro-about-section h4 {
+		font-size: 2.5vw;
+	}
+
+	.intro-about-section p {
+		font-size: 1.8vw;
+	}
 
 	/* ---------------------SECCION SERVICIOS--------------------- */
 
@@ -285,7 +394,55 @@
 
 	/* ---------------------SECCION HERO--------------------- */
 
+	.hero {
+		height: 60vh;
+	}
+
+	.hero h2 {
+		font-size: 1.5em;
+	}
+
+	.hero a {
+		font-size: 1em;
+	}
+
+	.btn {
+		padding: 8px 15px;
+	}
+
+
 	/* ---------------------SECCION NOSOTROS--------------------- */
+	.intro-about-section {
+		margin: 2em auto 0 auto;
+	}
+
+	.nosotros {
+		padding: 0 2em;
+	}
+
+	.vision {
+		padding: 1em 2em 0;
+	}
+
+	.mision {
+		padding-top: 1em;
+	}
+
+	.intro-about-section h1 {
+		font-size: 5vw;
+	}
+
+	.intro-about-section h3 {
+		font-size: 4vw;
+	}
+
+	.intro-about-section h4 {
+		font-size: 2.5vw;
+	}
+
+	.intro-about-section p {
+		font-size: 2vw;
+	}
 
 	/* ---------------------SECCION SERVICIOS--------------------- */
 
