@@ -1,0 +1,157 @@
+:root {
+    --color-primary-dark: #1a237e; /* Azul oscuro */
+    --color-primary-light: #4c68d1; /* Azul claro */
+    --color-text-light: #fff;
+    --color-text-dark: #333;
+    --color-soft-bg: #f4f6f9;
+}
+
+/* === ENCABEZADO SUPERIOR DINÁMICO === */
+.eventos-header {
+    height: 400px; /* Altura para el encabezado */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: var(--color-text-light);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+    margin-bottom: 50px;
+    transition: background-image 0.5s ease-in-out; /* Transición suave de fondo */
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.4); /* Capa semi-transparente para mejorar la legibilidad */
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    backdrop-filter: blur(2px); /* Efecto moderno de desenfoque */
+    transform: translateY(20px); /* Ligeramente elevado */
+    opacity: 0;
+    animation: fadeInSlide 0.8s forwards 0.3s;
+}
+
+.cita {
+    font-size: 5em;
+    line-height: 0.5;
+    margin: 0;
+    color: var(--color-primary-light);
+    font-weight: 700;
+}
+
+.header-titulo {
+    font-size: 2.5em;
+    margin: 0;
+    color: var(--color-text-light);
+}
+
+.header-subtitulo {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.header-link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-primary-light);
+    transition: color 0.3s;
+}
+
+/* Animación para la carga del contenido */
+@keyframes fadeInSlide {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* === GRILLA DE TARJETAS (TIMELINE) === */
+
+.eventos-timeline-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas fluyan a la siguiente línea */
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+}
+
+.evento-card {
+    display: flex;
+    align-items: center;
+    width: 300px; /* Ancho fijo para las tarjetas */
+    min-height: 80px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--color-soft-bg);
+    text-decoration: none;
+    color: var(--color-text-dark);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.evento-card:hover,
+.evento-card.active {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+    border-color: var(--color-primary-dark);
+    background-color: #ffffff; /* Fondo blanco al seleccionar */
+}
+
+.card-logo {
+    flex-shrink: 0; /* Evita que el logo se encoja */
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    /* Estilos para el logo/imagen dentro de la tarjeta */
+    /* Aquí podrías usar una imagen de fondo o un <img> dentro del div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-titulo {
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-primary-dark);
+}
+
+.card-fecha {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .eventos-header {
+        height: 250px;
+        padding-left: 5%;
+    }
+    .header-overlay {
+        max-width: 90%;
+    }
+    .header-titulo {
+        font-size: 1.8em;
+    }
+    .evento-card {
+        width: 90%; /* Ancho completo en móviles */
+    }
+}

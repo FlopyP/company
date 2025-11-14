@@ -1,0 +1,34 @@
+body {	
+	font: 14px/24px;
+	font-family: 'Roboto Slab', serif;
+	/* font-family: 'Roboto Condensed', sans-serif; */
+	color: #696969;
+	background: #fff;
+	counter-reset: list-counter-1;	
+}
+
+/* Standard Styles Starts */
+
+a { color: #3B75A3; }
+a:hover, 
+a:focus {
+	color: #2C537C;
+}
+a:focus { outline: none; }
+
+/* Heading Styles Starts */
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	color: #000;
+}
+h1 { font-size: 68px; }
+h2 { font-size: 48px; }
+h3 { font-size: 36px; }
+h4 { font-size: 30px; }
+h5 { font-size: 24px; }
+h6 { font-size: 18px; }

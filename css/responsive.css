@@ -1,0 +1,312 @@
+@media (min-width: 1200px) {
+	/* ---------------------SECCION HEADER--------------------- */
+	/* Generic Styles Starts */
+
+	.text-right-lg {
+		text-align: right;
+	}
+
+	.pull-left-lg {
+		float: left;
+	}
+
+	.pull-right-lg {
+		float: right;
+		left: auto;
+		right: 0;
+	}
+
+	/* ---------------------SECCION HERO--------------------- */
+
+	/* ---------------------SECCION NOSOTROS--------------------- */
+
+	/* ---------------------SECCION SERVICIOS--------------------- */
+
+	/* ---------------------SECCION CTA--------------------- */
+
+	/* ---------------------SECCION NOVEDADES--------------------- */
+
+	/* ---------------------SECCION CONTACTO--------------------- */
+
+	/* ---------------------SECCION FOOTER--------------------- */
+
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+	/* ---------------------SECCION HEADER--------------------- */
+	/* Generic Styles Starts */
+
+	.text-right-lg {
+		text-align: right;
+	}
+
+	.pull-left-lg {
+		float: left;
+	}
+
+	.pull-right-lg {
+		float: right;
+		left: auto;
+		right: 0;
+	}
+
+	/* ---------------------SECCION HERO--------------------- */
+
+	/* ---------------------SECCION NOSOTROS--------------------- */
+
+	/* ---------------------SECCION SERVICIOS--------------------- */
+
+	/* ---------------------SECCION CTA--------------------- */
+
+	/* ---------------------SECCION NOVEDADES--------------------- */
+
+	/* ---------------------SECCION CONTACTO--------------------- */
+
+	/* ---------------------SECCION FOOTER--------------------- */
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	/* ---------------------SECCION HEADER--------------------- */
+
+	.main-header {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	.header-info li.clearfix h6 {
+		font-size: 1em;
+	}
+
+	.header-info li.clearfix .fa {
+		margin-top: 13px;
+		margin-right: 10px;
+		font-size: 3vw;
+	}
+
+	/* Generic Styles Starts */
+
+	.text-right-lg {
+		text-align: right;
+	}
+
+	.pull-left-lg {
+		float: left;
+	}
+
+	.pull-left a {
+		font-size: .9em;
+	}
+
+	.pull-right-lg {
+		float: right;
+		left: auto;
+		right: 0;
+	}
+
+	/* ---------------------SECCION HERO--------------------- */
+
+	/* ---------------------SECCION NOSOTROS--------------------- */
+
+	/* ---------------------SECCION SERVICIOS--------------------- */
+
+	/* ---------------------SECCION CTA--------------------- */
+
+	/* ---------------------SECCION NOVEDADES--------------------- */
+
+	/* ---------------------SECCION CONTACTO--------------------- */
+
+	/* ---------------------SECCION FOOTER--------------------- */
+	/* Footer Styles Starts */
+
+	.main-footer {
+		padding-top: 40px;
+	}
+
+	.footer-links h4 {
+		margin-top: 40px;
+	}
+
+	.copyright ul {
+		margin-top: 15px;
+	}
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+	/* ---------------------SECCION HEADER--------------------- */
+
+	.main-header {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	.header-info li.clearfix h6 {
+		font-size: 2vw;
+	}
+
+	.header-info li.clearfix .fa {
+		margin-top: 13px;
+		margin-right: 10px;
+		font-size: 4vw;
+	}
+
+	/* Generic Styles Starts */
+
+	.text-right-lg {
+		text-align: right;
+	}
+
+	.pull-left-lg {
+		float: left;
+	}
+
+	.pull-left a {
+		font-size: 1.7vw;
+	}
+
+	.pull-right-lg {
+		float: right;
+		left: auto;
+		right: 0;
+	}
+
+
+	/* ---------------------SECCION HERO--------------------- */
+
+	/* ---------------------SECCION NOSOTROS--------------------- */
+
+	/* ---------------------SECCION SERVICIOS--------------------- */
+
+	/* ---------------------SECCION CTA--------------------- */
+
+	/* ---------------------SECCION NOVEDADES--------------------- */
+
+	.grid-container {
+		width: 90vw;
+		gap: 15px;
+		grid-template-columns: repeat(2, 1fr);
+		aspect-ratio: auto;
+	}
+
+	.grid-item {
+		padding: 20px;
+		font-size: 0.9em;
+	}
+
+	.grid-item h3 {
+		font-size: 1.3em;
+	}
+
+	.grid-item p {
+		font-size: 0.85em;
+	}
+
+	.grid-item .btn {
+		padding: 8px 18px;
+		font-size: 0.8em;
+	}
+
+
+	/* ---------------------SECCION CONTACTO--------------------- */
+
+	/* ---------------------SECCION FOOTER--------------------- */
+	/* Footer Styles Starts */
+
+	.main-footer {
+		padding-top: 40px;
+	}
+
+	.footer-links h4 {
+		margin-top: 40px;
+	}
+
+	.copyright ul {
+		margin-top: 10px;
+	}
+
+}
+
+
+@media (max-width: 480px) {
+	/* ---------------------SECCION HEADER--------------------- */
+
+	.main-header {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	.header-info li.clearfix h6 {
+		font-size: 2vw;
+	}
+
+	.header-info li.clearfix .fa {
+		margin-top: 13px;
+		margin-right: 10px;
+		font-size: 4.5vw;
+	}
+
+	/* Generic Styles Starts */
+
+	.text-right-lg {
+		text-align: right;
+	}
+
+	.pull-left-lg {
+		float: left;
+	}
+
+	.pull-left a {
+		font-size: 1.8vw;
+	}
+
+	.pull-right-lg {
+		float: right;
+		left: auto;
+		right: 0;
+	}
+
+
+	/* ---------------------SECCION HERO--------------------- */
+
+	/* ---------------------SECCION NOSOTROS--------------------- */
+
+	/* ---------------------SECCION SERVICIOS--------------------- */
+
+	/* ---------------------SECCION CTA--------------------- */
+
+	/* ---------------------SECCION NOVEDADES------------------------ */
+	.grid-container {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+
+	.grid-item {
+		padding: 15px;
+	}
+
+	.grid-item h3 {
+		font-size: 1.2em;
+	}
+
+	/* ---------------------SECCION CONTACTO--------------------- */
+
+	/* ---------------------SECCION FOOTER--------------------- */
+
+}
