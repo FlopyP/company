@@ -16,19 +16,6 @@
 		right: 0;
 	}
 
-	/* ---------------------SECCION NOSOTROS--------------------- */
-
-	/* ---------------------SECCION SERVICIOS--------------------- */
-
-	/* ---------------------SECCION CTA--------------------- */
-
-	/* ---------------------SECCION NOVEDADES--------------------- */
-
-	/* ---------------------SECCION CONTACTO--------------------- */
-
-	/* ---------------------SECCION FOOTER--------------------- */
-
-
 }
 
 
@@ -65,16 +52,18 @@
 		font-size: 1.2em;
 	}
 
-	/* ---------------------SECCION SERVICIOS--------------------- */
-
 	/* ---------------------SECCION CTA--------------------- */
 
-	/* ---------------------SECCION NOVEDADES--------------------- */
+	.CTA {
+		height: 80vh;
+		margin-top: -2em;
+	}
 
-	/* ---------------------SECCION CONTACTO--------------------- */
-
-	/* ---------------------SECCION FOOTER--------------------- */
-
+	.CTA h5,
+	h5 a {
+		padding: 0;
+		font-size: 2vw;
+	}
 }
 
 
@@ -172,14 +161,51 @@
 		color: #222;
 	}
 
-
-	/* ---------------------SECCION SERVICIOS--------------------- */
-
 	/* ---------------------SECCION CTA--------------------- */
+
+	.CTA {
+		height: 50vh;
+		margin-top: -1em;
+	}
+
+	.CTA h5,
+	h5 a {
+		padding: 0;
+		font-size: 2.5vw;
+	}
 
 	/* ---------------------SECCION NOVEDADES--------------------- */
 
+
+	.grid-item {
+		padding: 20px;
+		font-size: 0.8em;
+	}
+
+	.grid-item h3 {
+		font-size: 1.3em;
+	}
+
+	.grid-item p {
+		font-size: 0.85em;
+	}
+
+	.grid-item .btn {
+		padding: 8px 18px;
+		font-size: 0.8em;
+	}
+
+
 	/* ---------------------SECCION CONTACTO--------------------- */
+
+	.contacto {
+		margin-top: 1em;
+	}
+
+	.contacto h3 {
+		margin-top: 1.5em;
+		font-size: 2.5em;
+	}
 
 	/* ---------------------SECCION FOOTER--------------------- */
 	/* Footer Styles Starts */
@@ -297,22 +323,31 @@
 		font-size: 1.8vw;
 	}
 
-	/* ---------------------SECCION SERVICIOS--------------------- */
-
 	/* ---------------------SECCION CTA--------------------- */
+
+	.CTA {
+		height: 60vh;
+		margin-top: 0;
+	}
+
+	.CTA h5,
+	h5 a {
+		padding: 0;
+		font-size: 2.5vw;
+	}
 
 	/* ---------------------SECCION NOVEDADES--------------------- */
 
 	.grid-container {
 		width: 90vw;
-		gap: 15px;
+		gap: 30px;
 		grid-template-columns: repeat(2, 1fr);
 		aspect-ratio: auto;
 	}
 
 	.grid-item {
 		padding: 20px;
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 
 	.grid-item h3 {
@@ -328,22 +363,71 @@
 		font-size: 0.8em;
 	}
 
-
 	/* ---------------------SECCION CONTACTO--------------------- */
+
+	.contacto {
+		margin: .5em 1.5em;
+	}
+
+	.contacto h3 {
+		margin-top: 2em;
+		font-size: 3.5vw;
+		margin-bottom: 1em;
+	}
+
+	.contacto p {
+		margin: 0;
+		font-size: 1.8vw;
+	}
+
+	.form-control {
+		padding: 10px 20px;
+	}
+
+	input[type=text].form-control,
+	input[type=email].form-control {
+		height: 40px;
+		font-size: 1.8vw;
+	}
+
+	/* ------- FORMULARIO ------- */
+
+	.contact-form {
+		margin-top: 10px;
+	}
+
+	.contact-form-section {
+		margin-top: 20px;
+	}
+
+	.contact-form .form-group {
+		margin-bottom: 30px;
+	}
+
+	.contact-form .btn-secondary {
+		padding: 8px 40px;
+		font-size: 15px;
+	}
 
 	/* ---------------------SECCION FOOTER--------------------- */
 	/* Footer Styles Starts */
 
-	.main-footer {
-		padding-top: 40px;
+	.footer {
+		padding: 3vw 0;
+		font-size: 1.8vw;
 	}
 
-	.footer-links h4 {
-		margin-top: 40px;
+	iframe{
+		display: none;
 	}
 
-	.copyright ul {
-		margin-top: 10px;
+	.copyright {
+		font-size: 1.8vw;
+	}
+
+	.copyright>.container>.clearfix {
+		padding-top: 10px;
+		padding-bottom: 15px;
 	}
 
 }
@@ -354,24 +438,22 @@
 
 	.main-header {
 		padding-top: 8px;
-		padding-bottom: 8px;
+		padding-bottom: 5px;
 	}
 
 	.logo {
-		width: 100%;
+		width: 40vw;
 	}
 
 	.header-info li.clearfix h6 {
-		font-size: 2vw;
+		font-size: 2.5vw;
 	}
 
 	.header-info li.clearfix .fa {
 		margin-top: 13px;
-		margin-right: 10px;
+		margin-right: 5px;
 		font-size: 4.5vw;
 	}
-
-	/* Generic Styles Starts */
 
 	.text-right-lg {
 		text-align: right;
@@ -382,7 +464,7 @@
 	}
 
 	.pull-left a {
-		font-size: 1.8vw;
+		font-size: 2.5vw;
 	}
 
 	.pull-right-lg {
@@ -395,7 +477,7 @@
 	/* ---------------------SECCION HERO--------------------- */
 
 	.hero {
-		height: 60vh;
+		height: 40vh;
 	}
 
 	.hero h2 {
@@ -403,7 +485,7 @@
 	}
 
 	.hero a {
-		font-size: 1em;
+		font-size: .9em;
 	}
 
 	.btn {
@@ -429,41 +511,129 @@
 	}
 
 	.intro-about-section h1 {
-		font-size: 5vw;
+		font-size: 2.2em;
 	}
 
 	.intro-about-section h3 {
-		font-size: 4vw;
+		font-size: 1.7em;
 	}
 
 	.intro-about-section h4 {
-		font-size: 2.5vw;
+		font-size: 1.2em;
 	}
 
 	.intro-about-section p {
-		font-size: 2vw;
+		font-size: .9em;
 	}
-
-	/* ---------------------SECCION SERVICIOS--------------------- */
 
 	/* ---------------------SECCION CTA--------------------- */
 
+
+	.CTA {
+		margin: 0;
+		height: 20vh;
+	}
+
+	.CTA h5,
+	h5 a {
+		padding: 0 20px;
+		font-size: 3vw;
+	}
+
+
 	/* ---------------------SECCION NOVEDADES------------------------ */
+	#novedades .title{
+		font-size: 1.7em;
+	}
+
 	.grid-container {
-		grid-template-columns: 1fr;
-		gap: 10px;
+		width: 90%;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
 	}
 
 	.grid-item {
-		padding: 15px;
+		padding: 10px;
 	}
 
 	.grid-item h3 {
-		font-size: 1.2em;
+		font-size: .8em;
+	}
+
+	.grid-item p {
+		font-size: .7em;
+	}
+
+	.grid-item a img {
+		width: 50px;
 	}
 
 	/* ---------------------SECCION CONTACTO--------------------- */
 
+
+	.contacto {
+		margin: .5em 1em;
+	}
+
+	.contacto h3 {
+		margin-top: 2em;
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
+
+	.contacto p {
+		margin: 0;
+		font-size: .9em;
+	}
+
+	.form-control {
+		padding: 10px;
+	}
+
+	input[type=text].form-control,
+	input[type=email].form-control,
+	.form-control {
+		height: 40px;
+		font-size: .9em;
+	}
+
+	/* ------- FORMULARIO ------- */
+
+	.contact-form {
+		margin-top: 10px;
+	}
+
+	.contact-form-section {
+		margin-top: 20px;
+	}
+
+	.contact-form .form-group {
+		margin-bottom: 30px;
+	}
+
+	.btn-secondary {
+		padding: 5px 15px;
+		font-size: .9em;
+	}
+
 	/* ---------------------SECCION FOOTER--------------------- */
+
+	.footer {
+		padding: 3vw 0;
+		font-size: 2vw;
+	}
+
+	iframe{
+		display: none;
+	}
+
+	.copyright {
+		font-size: 2vw;
+	}
+
+	.copyright>.container>.clearfix {
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
 
 }

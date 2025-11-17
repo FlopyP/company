@@ -237,10 +237,16 @@ h5 a {
 
 /* ---------------------SECCION CONTACTO--------------------- */
 
-/* Form & Buttons Styles Starts */
-
 .contacto{
 	margin-top: 4em;
+}
+
+.contacto h3{
+	margin-top: 1.5em;
+    font-size: 2.5em;
+    color: var(--color-primary);
+    text-align: left;
+    margin-bottom: 1em;
 }
 
 .form-control {
@@ -257,11 +263,6 @@ input[type=email].form-control {
 	height: 50px;
 }
 
-.btn-outline {
-	background: none;
-	border: 1px solid #fff;
-}
-
 form .btn-secondary {
 	background-color: #2C537C;
 }
@@ -273,7 +274,6 @@ form .btn-secondary {
 	background-color: #000;
 }
 
-.btn-outline,
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus,
@@ -306,15 +306,14 @@ form .btn-secondary {
 	border-color: #2C537C;
 }
 
-.contact-form .form-control-feedback {
-	margin-top: 17px;
-	margin-right: 10px;
-	font-size: 18px;
-}
-
 .contact-form .btn-secondary {
 	padding: 8px 40px;
 	font-size: 18px;
+}
+
+.col-sm-4,
+.col-xs-12{
+	padding-left: 0;
 }
 
 
@@ -333,41 +332,8 @@ form .btn-secondary {
 	flex-direction: column;
 }
 
-
-.main-footer {
-	padding-top: 70px;
-	background-color: #2C537C;
-}
-
-.main-footer,
-.main-footer h6,
-.main-footer a {
-	color: #bababa;
-}
-
-.footer-links {
-	padding-bottom: 80px;
-}
-
-.footer-links h4 {
-	margin-bottom: 20px;
-}
-
-.sm-foot-links {
-	margin-top: 30px;
-}
-
-.sm-foot-links li {
-	font-size: 30px;
-}
-
-.sm-foot-links li a {
-	color: #f7f7f7;
-}
-
-.sm-foot-links li a:hover,
-.sm-foot-links li a:focus {
-	color: #fff;
+.datos a i{
+	font-style: normal;
 }
 
 .copyright {
